@@ -18,7 +18,7 @@ bot.addCommand(
 	async (message, match) => {
 		const date = new Date()
 		let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
+						
 ╰────────────────╯
 
 ╭────────────────
@@ -31,6 +31,7 @@ bot.addCommand(
 │ Plugins : ${PLUGINS.count}
 │ Ram : ${getRam()}
 │ Uptime : ${getUptime('t')}
+│ Developer : Ronen
 ╰────────────────
 ╭────────────────
 `
