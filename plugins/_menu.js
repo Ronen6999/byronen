@@ -18,20 +18,21 @@ bot.addCommand(
 	async (message, match) => {
 		const date = new Date()
 		let CMD_HELP = `╭────────────────╮
-						
+						𝗠𝗘𝗔𝗢𝗪 𝗕𝗢𝗧🐱
 ╰────────────────╯
 
 ╭────────────────
-│ Prefix : ${PREFIX}
-│ User : ${message.pushName}
-│ Time : ${date.toLocaleTimeString()}
-│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
-│ Date : ${date.toLocaleDateString('hi')}
-│ Version : ${VERSION}
-│ Plugins : ${PLUGINS.count}
-│ Ram : ${getRam()}
-│ Uptime : ${getUptime('t')}
-│ Developer : Ronen
+│ 🔖Prefix : ${PREFIX}
+│ 🔖User : ${message.pushName}
+│ 🔖Time : ${date.toLocaleTimeString()}
+│ 🔖Day : ${date.toLocaleString('en', { weekday: 'long' })}
+│ 🔖Date : ${date.toLocaleDateString('hi')}
+│ 🔖Version : ${VERSION}
+│ 🔖Plugins : ${PLUGINS.count}
+│ 🔖Ram : ${getRam()}
+│ 🔖Uptime : ${getUptime('t')}
+│ 🎗️Developer : Ronen🐥
+│ 🎗️ Developer Number : http://wa.me/+5069751205
 ╰────────────────
 ╭────────────────
 `
@@ -95,18 +96,20 @@ bot.addCommand(
 
 		let msg =
 			'```' +
-			`╭═══ LEVANTER ═══⊷
-┃❃╭──────────────
-┃❃│ Prefix : ${PREFIX}
-┃❃│ User : ${message.pushName}
-┃❃│ Time : ${date.toLocaleTimeString()}
-┃❃│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
-┃❃│ Date : ${date.toLocaleDateString('hi')}
-┃❃│ Version : ${VERSION}
-┃❃│ Plugins : ${PLUGINS.count}
-┃❃│ Ram : ${getRam()}
-┃❃│ Uptime : ${getUptime('t')}
-┃❃╰───────────────
+			`╭═══ 𝗠𝗘𝗔𝗢𝗪 𝗕𝗢𝗧🐱 ═══⊷
+┃🔖╭──────────────
+┃🔖│ Prefix : ${PREFIX}
+┃🔖│ User : ${message.pushName}
+┃🔖│ Time : ${date.toLocaleTimeString()}
+┃🔖│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
+┃🔖│ Date : ${date.toLocaleDateString('hi')}
+┃🔖│ Version : ${VERSION}
+┃🔖│ Plugins : ${PLUGINS.count}
+┃🔖│ Ram : ${getRam()}
+┃🔖│ Uptime : ${getUptime('t')}
+┃💕│ Developer : Ronen🐥
+┃🎗️│ Developer Number : http://wa.me/+5069751205
+┃❣️╰───────────────
 ╰═════════════════⊷
 ` +
 			'```'
